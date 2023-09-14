@@ -20,18 +20,12 @@ export default function Home() {
 
       <Footer />
     </div>
-      <script>
-        window.embeddedChatbotConfig = {
-        chatbotId: "l_Je4sUJN7THZ-GoO3ir6",
-        domain: "www.chatbase.co"
-        }
-        </script>
-        <script
-        src="https://www.chatbase.co/embed.min.js"
-        chatbotId="l_Je4sUJN7THZ-GoO3ir6"
-        domain="www.chatbase.co"
-        defer>
-        </script>
+      <iframe
+src="https://www.chatbase.co/chatbot-iframe/l_Je4sUJN7THZ-GoO3ir6"
+width="100%"
+style="height: 100%; min-height: 700px"
+frameborder="0"
+></iframe>
 
   )
 }
