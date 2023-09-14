@@ -17,7 +17,10 @@ export default function Home() {
         </p>
 
       </main>
-    <script>
+
+      <Footer />
+    </div>
+      <script>
         window.embeddedChatbotConfig = {
         chatbotId: "l_Je4sUJN7THZ-GoO3ir6",
         domain: "www.chatbase.co"
@@ -30,7 +33,5 @@ export default function Home() {
         defer>
         </script>
 
-      <Footer />
-    </div>
   )
 }
