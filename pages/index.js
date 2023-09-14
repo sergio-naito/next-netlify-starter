@@ -4,13 +4,7 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-      <iframe
-src="https://www.chatbase.co/chatbot-iframe/l_Je4sUJN7THZ-GoO3ir6"
-width="100%"
-style="height: 100%; min-height: 700px"
-frameborder="0"
-></iframe>
-
+      
     
     <div className="container">
       <Head>
@@ -20,6 +14,14 @@ frameborder="0"
 
       <main>
         <Header title="Welcome to my app!" />
+<iframe
+src="https://www.chatbase.co/chatbot-iframe/l_Je4sUJN7THZ-GoO3ir6"
+width="100%"
+style="height: 100%; min-height: 700px"
+frameborder="0"
+></iframe>
+
+    
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
