@@ -4,6 +4,14 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
+      <iframe
+src="https://www.chatbase.co/chatbot-iframe/l_Je4sUJN7THZ-GoO3ir6"
+width="100%"
+style="height: 100%; min-height: 700px"
+frameborder="0"
+></iframe>
+
+    
     <div className="container">
       <Head>
         <title>Next.js Starter!</title>
@@ -20,12 +28,6 @@ export default function Home() {
 
       <Footer />
     </div>
-      <iframe
-src="https://www.chatbase.co/chatbot-iframe/l_Je4sUJN7THZ-GoO3ir6"
-width="100%"
-style="height: 100%; min-height: 700px"
-frameborder="0"
-></iframe>
 
   )
 }
