@@ -16,6 +16,7 @@ export default function Home() {
           Get started by editing <code>pages/index.js</code>
         </p>
 
+      </main>
     <script>
         window.embeddedChatbotConfig = {
         chatbotId: "l_Je4sUJN7THZ-GoO3ir6",
@@ -28,7 +29,6 @@ export default function Home() {
         domain="www.chatbase.co"
         defer>
         </script>
-      </main>
 
       <Footer />
     </div>
